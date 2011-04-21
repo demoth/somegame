@@ -54,11 +54,6 @@ if __name__ == '__main__':
     #create the screen
     window = pygame.display.set_mode((800, 800)) 
     colour = (255, 255, 255)
-    #drawSerpinskiCarpet(window, (400, 400), 800, 5)
-    #draw it to the screen
-    
-    #input handling (somewhat boilerplate code):
-    #drawMandelbrot(window, 0.6 + 0.6j, 100)
     pygame.display.flip()
     while True:
         window.fill((0, 0, 0)) 
